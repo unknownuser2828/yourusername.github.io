@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TrendCart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin: 0; font-family: Arial; background: #fff; }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px;
+      background: black;
+      color: white;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 30px;
+    }
+
+    .hero h1 {
+      font-size: 28px;
+    }
+
+    .product {
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .price {
+      font-size: 22px;
+      color: green;
+      margin: 10px 0;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 15px;
+      background: black;
+      color: white;
+      font-size: 18px;
+      border: none;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    .reviews {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+
+    .badge {
+      background: red;
+      color: white;
+      padding: 5px 10px;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div>TrendCart</div>
+  <div>🔥 Viral Picks</div>
+</header>
+
+<div class="hero">
+  <h1>This Product Is Going Viral 🚀</h1>
+  <p>Limited stock available</p>
+</div>
+
+<div class="product">
+  <div class="badge">50% OFF TODAY</div>
+
+  <img src="https://via.placeholder.com/400">
+
+  <h2>LED Galaxy Projector</h2>
+  <div class="price">$29.99 <s>$59.99</s></div>
+
+  <button class="btn" onclick="buy()">Buy Now</button>
+
+  <div class="reviews">
+    ⭐⭐⭐⭐⭐ (2,134 Reviews) <br>
+    "This is insane for the price" - Verified Buyer
+  </div>
+</div>
+
+<script>
+  function buy() {
+    window.location.href = "https://your-checkout-link.com";
+  }
+</script>
+
+</body>
+</html>
